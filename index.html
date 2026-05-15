@@ -648,7 +648,7 @@ function initPage(){
         l.style.transform=`translateY(-${p*y}px)`;
     }
     
-    setInterval((()=>{s.classList.contains("show")&&(h=(h+1)%3,i.className="shape-"+h)}),800);
+    setInterval((()=>{s.classList.contains("show")&&(h=(h+1)%3,i.className="shape-"+h)}),1600);
     c.addEventListener("click",(e=>{e.preventDefault();d.classList.contains("shrunk")&&window.scrollTo({top:0,behavior:"smooth"})}));
     window.addEventListener("scroll",g,{passive:!0});
     window.addEventListener("resize",g,{passive:!0});
